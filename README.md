@@ -25,4 +25,4 @@ All core requirements: React client, Express GET/POST endpoints, React form, mul
 Did not fully implement category filtering routes (`/habits/:category`).
 
 ### What did I find difficult?
-Connecting the deployed server to Supabase — the Direct Connection doesn't support IPv4 (used by Render), so switching to the Session Pooler connection string was needed to fix it.
+Connecting the deployed server to Supabase. The Direct Connection doesn't support IPv4 (used by Render), so switching to the Session Pooler connection string was needed to fix it.
