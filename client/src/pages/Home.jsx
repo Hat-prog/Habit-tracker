@@ -39,7 +39,7 @@ export default function Home() {
     <div className="page">
       <h1>My Habits</h1>
       {habits.length === 0 && (
-        <p className="empty-state">No habits yet — add one!</p>
+        <p className="empty-state">Add your first habit!</p>
       )}
       {habits.map((habit) => {
         const done = completedToday.includes(habit.id);
